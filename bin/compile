@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -ex
+
+cargo install \
+    diesel_cli \
+    --debug \
+    --no-default-features \
+    --features postgres
+
+cp $CARGO_HOME/bin/diesel target/release
