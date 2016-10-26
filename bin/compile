@@ -8,4 +8,4 @@ cargo install \
     --no-default-features \
     --features postgres
 
-cp $CARGO_HOME/bin/diesel target/release
+cp $CARGO_HOME/bin/diesel $1/target/release
